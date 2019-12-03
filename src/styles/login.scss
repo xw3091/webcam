@@ -1,0 +1,48 @@
+.app-background {
+    width: 100%;
+    height: 100%;
+    .app-container {
+        width: 420px;
+        height: 460px;
+        padding: 56px 48px;
+        border: 1px solid #dcdfe6;
+        border-radius: 8px;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        margin-top: -230px;
+        .wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .wrapper-content {
+            .btn-text {
+                padding: 0 16px;
+                position: absolute;
+                top: 41.5%;
+                right: 12%;
+            }
+        }
+        .signUp-hyperlink {
+            color: #909399;
+            margin-top: 12px;
+        }
+        .slogan {
+            margin: 20px 0;
+            font-weight: 600;
+            font-size: 20px;
+            text-align: center;
+        }
+        .logo {
+            margin: 0 auto;
+            width: 120px;
+            height: 54px;
+            background: url(../assets/logo.png) no-repeat;
+            background-size: contain;
+        }
+        .el-input {
+            margin-bottom: 15px;
+        }
+    }
+}
